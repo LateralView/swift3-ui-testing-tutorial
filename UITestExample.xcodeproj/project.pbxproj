@@ -7,8 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		06373C011EC523A6003CDC29 /* UITestExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06373C001EC523A6003CDC29 /* UITestExampleUITests.swift */; };
 		06A7114A1EBBB3C30015715D /* ConditionalConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A711491EBBB3C30015715D /* ConditionalConstraint.swift */; };
+		06E88CEE1EC5F6C1008B4339 /* SignInViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E88CED1EC5F6C1008B4339 /* SignInViewControllerTests.swift */; };
+		06E88CEF1EC5F875008B4339 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D7EEF41E8ACC030037EE7E /* Strings.swift */; };
+		06E88CF31EC5FE17008B4339 /* RequestStubsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E88CF21EC5FE17008B4339 /* RequestStubsHelper.swift */; };
+		06E90C5D1EC9FCC3007C5848 /* AuthenticateUser.json in Resources */ = {isa = PBXBuildFile; fileRef = 06E90C5C1EC9FCC3007C5848 /* AuthenticateUser.json */; };
+		06E90C611ECA0FA5007C5848 /* UITestExampleAPI-SignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E90C5F1ECA0FA5007C5848 /* UITestExampleAPI-SignIn.swift */; };
+		06E90C621ECA0FA5007C5848 /* UITestExampleAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E90C601ECA0FA5007C5848 /* UITestExampleAPI.swift */; };
+		06E90C651ECA11EE007C5848 /* Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E90C641ECA11EE007C5848 /* Keys.swift */; };
 		06EAA9781EBCC1C9006C3FDE /* UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06EAA9771EBCC1C9006C3FDE /* UITextField.swift */; };
 		8210EFF3F4EEDB0254571B49 /* Pods_UITestExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A83BDEBAACF49340AB137011 /* Pods_UITestExample.framework */; };
 		83D7EEE31E8ACBEC0037EE7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D7EEE21E8ACBEC0037EE7E /* AppDelegate.swift */; };
@@ -48,9 +54,14 @@
 
 /* Begin PBXFileReference section */
 		06373BFE1EC523A6003CDC29 /* UITestExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITestExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		06373C001EC523A6003CDC29 /* UITestExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITestExampleUITests.swift; sourceTree = "<group>"; };
 		06373C021EC523A6003CDC29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		06A711491EBBB3C30015715D /* ConditionalConstraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConditionalConstraint.swift; sourceTree = "<group>"; };
+		06E88CED1EC5F6C1008B4339 /* SignInViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewControllerTests.swift; sourceTree = "<group>"; };
+		06E88CF21EC5FE17008B4339 /* RequestStubsHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestStubsHelper.swift; sourceTree = "<group>"; };
+		06E90C5C1EC9FCC3007C5848 /* AuthenticateUser.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = AuthenticateUser.json; sourceTree = "<group>"; };
+		06E90C5F1ECA0FA5007C5848 /* UITestExampleAPI-SignIn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITestExampleAPI-SignIn.swift"; sourceTree = "<group>"; };
+		06E90C601ECA0FA5007C5848 /* UITestExampleAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITestExampleAPI.swift; sourceTree = "<group>"; };
+		06E90C641ECA11EE007C5848 /* Keys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Keys.swift; sourceTree = "<group>"; };
 		06EAA9771EBCC1C9006C3FDE /* UITextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextField.swift; sourceTree = "<group>"; };
 		4AFD647744F53B86DD8412D6 /* Pods-UITestExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UITestExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UITestExample/Pods-UITestExample.debug.xcconfig"; sourceTree = "<group>"; };
 		83D7EEDF1E8ACBEC0037EE7E /* UITestExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UITestExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -104,10 +115,35 @@
 		06373BFF1EC523A6003CDC29 /* UITestExampleUITests */ = {
 			isa = PBXGroup;
 			children = (
-				06373C001EC523A6003CDC29 /* UITestExampleUITests.swift */,
+				06E88CED1EC5F6C1008B4339 /* SignInViewControllerTests.swift */,
 				06373C021EC523A6003CDC29 /* Info.plist */,
 			);
 			path = UITestExampleUITests;
+			sourceTree = "<group>";
+		};
+		06E90C591EC9FC6E007C5848 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				06E90C5C1EC9FCC3007C5848 /* AuthenticateUser.json */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		06E90C5E1ECA0F14007C5848 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				06E90C631ECA0FAC007C5848 /* Extensions */,
+				06E90C601ECA0FA5007C5848 /* UITestExampleAPI.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		06E90C631ECA0FAC007C5848 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				06E90C5F1ECA0FA5007C5848 /* UITestExampleAPI-SignIn.swift */,
+			);
+			name = Extensions;
 			sourceTree = "<group>";
 		};
 		39988B44E6A3B99587F93D2B /* Pods */ = {
@@ -150,6 +186,8 @@
 		83D7EEE11E8ACBEC0037EE7E /* UITestExample */ = {
 			isa = PBXGroup;
 			children = (
+				06E90C5E1ECA0F14007C5848 /* Services */,
+				06E90C591EC9FC6E007C5848 /* Resources */,
 				83D7EEFA1E8ACE180037EE7E /* ViewControllers */,
 				83D7EEE21E8ACBEC0037EE7E /* AppDelegate.swift */,
 				83D7EEFB1E8ACE3B0037EE7E /* Storyboards */,
@@ -184,11 +222,13 @@
 		83D7EEFC1E8ACE500037EE7E /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				06E88CF21EC5FE17008B4339 /* RequestStubsHelper.swift */,
 				83D7EEF41E8ACC030037EE7E /* Strings.swift */,
 				83D7EEF61E8ACD400037EE7E /* Colors.swift */,
 				83D7EEF81E8ACDC30037EE7E /* Fonts.swift */,
 				83D7EF131E8BF67F0037EE7E /* Identifiers.swift */,
 				06A711491EBBB3C30015715D /* ConditionalConstraint.swift */,
+				06E90C641ECA11EE007C5848 /* Keys.swift */,
 			);
 			name = Helpers;
 			sourceTree = "<group>";
@@ -326,6 +366,7 @@
 				83D7EEED1E8ACBEC0037EE7E /* LaunchScreen.storyboard in Resources */,
 				83D7EEEA1E8ACBEC0037EE7E /* Assets.xcassets in Resources */,
 				83D7EEE81E8ACBEC0037EE7E /* Login.storyboard in Resources */,
+				06E90C5D1EC9FCC3007C5848 /* AuthenticateUser.json in Resources */,
 				83D7EF0D1E8BEAE30037EE7E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -385,7 +426,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				06373C011EC523A6003CDC29 /* UITestExampleUITests.swift in Sources */,
+				06E88CEF1EC5F875008B4339 /* Strings.swift in Sources */,
+				06E88CEE1EC5F6C1008B4339 /* SignInViewControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,8 +444,11 @@
 				83D7EF0B1E8AD4CC0037EE7E /* UIImage.swift in Sources */,
 				83D7EF1F1E8C171C0037EE7E /* Router.swift in Sources */,
 				83D7EEF71E8ACD400037EE7E /* Colors.swift in Sources */,
+				06E88CF31EC5FE17008B4339 /* RequestStubsHelper.swift in Sources */,
+				06E90C621ECA0FA5007C5848 /* UITestExampleAPI.swift in Sources */,
 				83D7EF071E8AD3300037EE7E /* Date.swift in Sources */,
 				83D7EEF51E8ACC030037EE7E /* Strings.swift in Sources */,
+				06E90C611ECA0FA5007C5848 /* UITestExampleAPI-SignIn.swift in Sources */,
 				83D7EEE31E8ACBEC0037EE7E /* AppDelegate.swift in Sources */,
 				83D7EF191E8C04660037EE7E /* SignInVC.swift in Sources */,
 				83D7EEFF1E8ACE940037EE7E /* UIView.swift in Sources */,
@@ -414,6 +459,7 @@
 				83D7EF171E8C04570037EE7E /* LoginVC.swift in Sources */,
 				83D7EF1B1E8C046F0037EE7E /* SignUpVC.swift in Sources */,
 				06A7114A1EBBB3C30015715D /* ConditionalConstraint.swift in Sources */,
+				06E90C651ECA11EE007C5848 /* Keys.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -608,6 +654,7 @@
 				06373C061EC523A6003CDC29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		83D7EEDA1E8ACBEC0037EE7E /* Build configuration list for PBXProject "UITestExample" */ = {
 			isa = XCConfigurationList;

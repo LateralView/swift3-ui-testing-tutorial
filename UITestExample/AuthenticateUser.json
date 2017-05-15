@@ -1,0 +1,8 @@
+{
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1OGJiNTk3YmE3ZDFkMjgyY2IzMzAzYmMiLCJlbWFpbCI6InZhbGlkYXRvckBjbHVidHJpLmNvbSIsImlhdCI6MTQ5MjYxNTM1MywiZXhwIjoxNDkyNzAxNzUzfQ.vSfJeC9Jztkc3b29AZjS4xZUikKbyAJN8I0cIlICtjc",
+    "user": {
+        "_id": "58bb597ba7d1d282cb3303bc",
+        "email": "testUser@lateralview.net",
+        "fullname": "Test User",
+    }
+}

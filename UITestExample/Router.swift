@@ -26,8 +26,8 @@ class Router {
     
     func showHome() {
         let sb = UIStoryboard(name: Identifiers.storyboards.main, bundle: nil)
-        if let vc = sb.instantiateInitialViewController(),
-            let delegate = UIApplication.shared.delegate {
+        let vc = sb.instantiateViewController(withIdentifier: Strings.ViewControllers.home)
+        if let delegate = UIApplication.shared.delegate {
             delegate.window??.rootViewController = vc
         }
     }

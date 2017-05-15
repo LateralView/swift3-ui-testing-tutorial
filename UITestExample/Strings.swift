@@ -18,6 +18,11 @@ struct Strings
         static let defaultButtonTitle = NSLocalizedString("sign_in_default_button_title", comment: "")
         
     }
+    
+    struct Flags {
+        static let deleteUserDefaultsFlag = "deleteUserDefaults"
+        static let networkStubsFlag = "networkStubs"
+    }
 
     struct SignUp {
         
@@ -28,6 +33,23 @@ struct Strings
     struct ForgotPassword {
         
         
+    }
+    
+    struct ViewControllers {
+        static let home = "HomeVC"
+        
+    }
+    
+    struct Alerts {
+        struct Messages {
+            static let emptyFields = "There are empty fields"
+            
+        }
+    }
+    
+    struct ProcessArguments {
+        static let deleteUserDefaultsFlag = "deleteUserDefaults"
+        static let networkStubsFlag = "networkStubs"
     }
 
 }

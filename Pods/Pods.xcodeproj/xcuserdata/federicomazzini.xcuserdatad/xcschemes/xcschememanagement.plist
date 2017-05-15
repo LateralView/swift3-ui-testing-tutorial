@@ -4,25 +4,50 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Alamofire.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>GoogleToolboxForMac.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>1</integer>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>OHHTTPStubs.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
 		</dict>
 		<key>Pods-UITestExample.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>2</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
 		<key>Protobuf.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>3</integer>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SwiftyJSON.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>B40CD2C1A5641B0CA2A65C2065EC8D9C</key>
+		<key>748F1C7F61D88F3FB355A8E829489671</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>88E9EC28B8B46C3631E6B242B50F4442</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A985EFD6005F160E39419624049A3E7D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -32,7 +57,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>CF1CFE6B3EA129723314C0D28D53B0DA</key>
+		<key>CC0DD4704E70618F33B92334FBF9A3E2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>ED98F701181DB17C4C3FCE750F216AB2</key>
 		<dict>
 			<key>primary</key>
 			<true/>
